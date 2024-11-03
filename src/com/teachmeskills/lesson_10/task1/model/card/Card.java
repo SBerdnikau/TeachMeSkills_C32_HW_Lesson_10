@@ -13,18 +13,6 @@ public class Card {
         this.balance = balance;
     }
 
-    public String getCvv() {
-        return cvv;
-    }
-
-    public String getCardNumber() {
-        return cardNumber;
-    }
-
-    public double getBalance() {
-        return balance;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -41,5 +29,17 @@ public class Card {
     @Override
     public String toString() {
         return "№ "+ this.cardNumber + ", CVV:" + this.cvv;
+    }
+
+    public String getCvv() {
+        return cvv;
+    }
+
+    public String getCardNumber() {
+        return cardNumber;
+    }
+
+    public double getBalance() {
+        return balance;
     }
 }

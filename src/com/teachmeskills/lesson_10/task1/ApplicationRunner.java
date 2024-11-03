@@ -18,10 +18,10 @@ public class ApplicationRunner {
 
         Client client = new Client("Alex",10);
 
-        client.addCard("111", "1111-4445-3333-1111", 7300);
-        client.addCard("456", "2344-1145-2333-9999", 1300);
+        client.addCard("111", "1111-4445-3333-1111", 6300);
+        client.addCard("456", "2344-1145-2333-9999", 8300);
         client.addCard("789", "3334-4655-6673-5521", 2300);
-        client.addCard("555", "5555-3345-3113-1821", 3600);
+        client.addCard("555", "5555-3345-3113-1821", 1600);
         client.addCard("222", "2222-2145-6363-2222", 1300);
         client.addCard("111", "1111-4445-3333-1111", 15211);
         client.addCard("123", "1234-2145-6363-2222", 100);
