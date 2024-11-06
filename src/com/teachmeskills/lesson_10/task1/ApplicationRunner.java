@@ -1,6 +1,7 @@
 package com.teachmeskills.lesson_10.task1;
 
 import com.teachmeskills.lesson_10.task1.model.client.Client;
+import com.teachmeskills.lesson_10.task1.service.ServiceOperationCard;
 
 /**
  * Задача 1
@@ -28,6 +29,6 @@ public class ApplicationRunner {
         client.addCard("111", "1111-4445-3333-1111", 32100);
         client.addCard("222", "2222-2145-6363-2222", 20);
 
-        client.countDuplicateCards();
+        ServiceOperationCard.getDuplicateCards(client, client.getCards());
     }
 }
